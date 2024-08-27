@@ -173,7 +173,15 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-        <img src="./static/images/teaser.jpg", alt="Teaser of CLORT", width="100%"> </img>
+      <video id="replay-video"
+            controls
+            muted
+            preload
+            playsinline
+            width="100%">
+        <source src="./static/videos/teaser.mp4" autoplay="autoplay" loop="loop" type="video/mp4">
+      </video>
+        <!-- <img src="./static/images/teaser.jpg", alt="Teaser of CLORT", width="100%"> </img> -->
       <h2 class="subtitle has-text-centered">
         <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
         free-viewpoint
@@ -325,7 +333,7 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="replay-video"
+          <video id="teaser"
                  controls
                  muted
                  preload
